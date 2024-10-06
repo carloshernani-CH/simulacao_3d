@@ -31,3 +31,14 @@ Para encontrar todos os comandos implementados, execute:
 
     simulacao-cli --help
 
+Para iniciar a simulação, execute:
+
+    simulacao-cli run
+
+### Controles da simulação:
+
+- **Barra de espaço**: Alterna entre os objetos 3D (cubo e pirâmide)
+- **Seta para cima**: Aumenta a velocidade de rotação do objeto atual
+- **Seta para baixo**: Diminui a velocidade de rotação do objeto atual
+- **Fechar a janela**: Encerra a simulação
+

@@ -3,7 +3,8 @@ import os
 from pathlib import Path
 from rich.console import Console
 import typer
-from my_lib import executar_simulacao
+from .my_lib import executar_simulacao
+
 
 app = typer.Typer(no_args_is_help=True)
 console = Console()
@@ -24,9 +25,7 @@ def run():
     """
     Probably run the main function of the module
     """
-    console.print("Running the simulation...")
     executar_simulacao()
-    
 
 if __name__ == "__main__":
     app()
