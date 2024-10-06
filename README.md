@@ -2,6 +2,11 @@
 
 APS4
 
+Integrantes:
+
+- Carlos Hernani
+- Pedro Fardin
+
 Se você vai *desenvolver* deste repositório, vá para o [guia de desenvolvimento](README_DEV.md).
 
 ## Instalando simulacao:
